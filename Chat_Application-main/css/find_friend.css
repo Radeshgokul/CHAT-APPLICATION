@@ -1,0 +1,91 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Card styles */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image styles */
+.card img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    width: 150px;
+    height: 150px;
+    border:2px solid black;
+   
+}
+
+/* Title styles */
+.title {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form styles */
+form.search_form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form.search_form input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+    padding: 10px;
+}
+
+form.search_form button {
+    background-color: #555;
+    border: 1px solid #555;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    flex-basis: 30%;
+    padding: 10px 20px;
+}
+
+form.search_form button:hover {
+    background-color: #333;
+}
